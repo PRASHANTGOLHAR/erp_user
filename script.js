@@ -1,24 +1,24 @@
 // **AIRTABLE CONFIGURATION - EDIT THESE VALUES**
 const AIRTABLE_CONFIG = {
     // 🔴 EDIT LINE 3: Add your Airtable Personal Access Token here
-    PAT: 'patgWdn9sA5XcL7tn.561fe01e8d51d38d5f938fe19e20477ab26c711bb8083ccee4e55010fd3a0112',
+    PAT: 'patkafVHW8kIY2H8t.8d9cf3705f850e5eb13dfa9f4ef1fb532588765ccdf4d35a6218461b22aba7a6',
     
     // 🔴 EDIT LINE 6: Add your Airtable Base ID here
-    BASE_ID: 'apphHhLXpWdu1jrMp',
+    BASE_ID: 'appVMSlbsgAx0cH8v',
     
     // 🔴 EDIT LINES 9-10: Add your table names/IDs here
-    AR_TABLE_NAME: 'AR CRM', // Customer Invoice table
-    AP_TABLE_NAME: 'AP CRM', // Vendor Bill table
+    AR_TABLE_NAME: 'AR IMPORT', // Customer Invoice table
+    AP_TABLE_NAME: 'AP IMPORT', // Vendor Bill table
 };
 
 // Field definitions
 const arFields = [
-    'Batch ID', 'Customer Name', 'Customer Email', 'Invoice Number', 
+    'Batch ID', 'Customer Name', 'Customer Email', 'Invoice Number ', 
     'Invoice Date', 'Invoice Amount', 'Due Date'
 ];
 
 const apFields = [
-    'Batch ID', 'Vendor Name', 'Vendor Email', 'Invoice Number', 
+    'Vendor ID', 'Vendor Name', 'Vendor Email', 'Invoice Number', 
     'Invoice Date', 'Invoice Amount', 'Due Date'
 ];
 
