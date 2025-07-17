@@ -18,7 +18,7 @@ const arFields = [
 ];
 
 const apFields = [
-    'Vendor ID', 'Vendor Name', 'Vendor Email', 'Invoice Number', 
+    'Batch ID','Vendor ID', 'Vendor Name', 'Vendor Email', 'Invoice Number', 
     'Invoice Date', 'Invoice Amount', 'Due Date'
 ];
 
