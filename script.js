@@ -7,8 +7,8 @@ const AIRTABLE_CONFIG = {
     BASE_ID: 'appVMSlbsgAx0cH8v',
     
     // 🔴 EDIT LINES 9-10: Add your table names/IDs here
-    AR_TABLE_NAME: 'AR Import', // Customer Invoice table
-    AP_TABLE_NAME: 'AP Import', // Vendor Bill table
+    AR_TABLE_NAME: 'AR IMPORT', // Customer Invoice table
+    AP_TABLE_NAME: 'AP IMPORT', // Vendor Bill table
 };
 
 // Field definitions
