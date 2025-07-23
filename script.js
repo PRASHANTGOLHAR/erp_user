@@ -1,16 +1,15 @@
 // **AIRTABLE CONFIGURATION - EDIT THESE VALUES**
 const AIRTABLE_CONFIG = {
     // 🔴 EDIT LINE 3: Add your Airtable Personal Access Token here
-    PAT: 'patkafVHW8kIY2H8t.8d9cf3705f850e5eb13dfa9f4ef1fb532588765ccdf4d35a6218461b22aba7a6',
+    PAT: 'patcpUIfwD7dO31yP.d4f977687c0a13f9ababa4f5c96954c68bd07d09a9e3eb6a1391acb7f2f2375b',
     
     // 🔴 EDIT LINE 6: Add your Airtable Base ID here
-    BASE_ID: 'appVMSlbsgAx0cH8v',
+    BASE_ID: 'appkUal6c4oanOR4X',
     
     // 🔴 EDIT LINES 9-10: Add your table names/IDs here
-    AR_TABLE_NAME: 'AR IMPORT', // Customer Invoice table
-    AP_TABLE_NAME: 'AP IMPORT', // Vendor Bill table
+    AR_TABLE_NAME: 'AR Import', // Customer Invoice table
+    AP_TABLE_NAME: 'AP Import', // Vendor Bill table
 };
-
 
 // Field definitions
 const arFields = [

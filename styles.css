@@ -56,7 +56,7 @@ body {
 .main-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: var(--foreground);
+    color: rgb(252, 111, 3);
     margin-bottom: 8px;
 }
 
@@ -195,7 +195,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 12px 24px;
-    background-color: var(--primary);
+    background-color: rgb(67, 157, 44);
     color: var(--primary-foreground);
     border: none;
     border-radius: var(--radius);
@@ -206,7 +206,7 @@ body {
 }
 
 .submit-btn:hover:not(:disabled) {
-    background-color: hsl(217, 91%, 55%);
+    background-color: rgb(51, 128, 32);
 }
 
 .submit-btn:disabled {
